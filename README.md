@@ -1,7 +1,9 @@
 
-# DementiaNet
+DementiaNet
+==============================
 
 **[Colab Walkthrough](https://drive.google.com/drive/folders/1CYDqhwvHMFiKD4tz2z-T16-eQhxPf6qe?usp=sharing)**
+
 DementiaNet is a longitudinal spontaneous speech (audio) dataset for dementia screening. These are audio samples scrapped from youtube for public figures and celebrities:
 - who had confirmed dementia diagnoses for Dementia data
 - who lived on to beyond 90 years without any noticeable decline in cognitive health for No-dementia data. 
