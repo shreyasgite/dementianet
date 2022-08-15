@@ -14,11 +14,21 @@ Early analysis of this dataset shows above 70% accuracy. According to our knowle
 **Note that this is a preliminary release.** The raw data used for constructing the data sets and the youtube URLs are available upon request.
 
 
+### Download
+* DementiaNet: [Google Sheet with URLs and metadata](https://docs.google.com/spreadsheets/d/1ih3FjEsiKDctS2oFhZKXah-OrzEridgUDHKu2awXSx8/edit?usp=sharing)
+* Dementia data: [dementia audio clips](https://drive.google.com/drive/folders/1GKlvbU57g80-ofCOXGwatDD4U15tpJ4S?usp=sharing)
+* No-Dementia data: [nodementia audio clips](https://drive.google.com/drive/folders/1jm7w7J8SfuwKHpEALIK6uxR9aQZR1q8I?usp=sharing)
+* Code: [Colab starter code](https://drive.google.com/drive/folders/1CYDqhwvHMFiKD4tz2z-T16-eQhxPf6qe?usp=sharing)
+* train file: [train_dm.csv](https://drive.google.com/file/d/1bDsEo_LNP1sAtoKfIfwCkdC_PEzs3S0u/view?usp=sharing)
+* valid file: [valid_dm.csv](https://drive.google.com/file/d/1-89Y_Jc-uItJskT_cGTiEVqVhw85QXpa/view?usp=sharing)
+
+
 ### Motivation
 Alzheimer's sucks!
 The development of Alzheimer's starts long before the onslaught of symptoms. By the time the symptoms are diagnosed, it is too late to treat the condition. If we could diagnose Alzheimer's early enough, studies have shown that lifestyle changes and therapies can significantly slow the progression of Alzheimer's disease. Catching cognitive impairment early is essential to helping those with the condition.
 
-However I could not find any open dataset containing longitudinal audio samples of spontaneous speech for Alzheimer's. Hence DementiaNet. 
+However I could not find any open dataset containing longitudinal audio samples of spontaneous speech for Alzheimer's. Hence the DementiaNet. 
+
 
 ### Approach
 Dementia Data:
@@ -31,21 +41,12 @@ We then collected three audio samples per individual, one after they were above 
 We focused on spontaneous interviews for the audio samples and strictly avoided speeches, movie scenes, and anything where the person of interest could rehearse or read the text. 
 
 
-### Download
-* DementiaNet: [Google Sheet with URLs and metadata](https://docs.google.com/spreadsheets/d/1ih3FjEsiKDctS2oFhZKXah-OrzEridgUDHKu2awXSx8/edit?usp=sharing)
-* Dementia data: [dementia audio clips](https://drive.google.com/drive/folders/1GKlvbU57g80-ofCOXGwatDD4U15tpJ4S?usp=sharing)
-* No-Dementia data: [nodementia audio clips](https://drive.google.com/drive/folders/1jm7w7J8SfuwKHpEALIK6uxR9aQZR1q8I?usp=sharing)
-* Code: [Colab starter code](https://drive.google.com/drive/folders/1CYDqhwvHMFiKD4tz2z-T16-eQhxPf6qe?usp=sharing)
-* train file: [train_dm.csv](https://drive.google.com/file/d/1bDsEo_LNP1sAtoKfIfwCkdC_PEzs3S0u/view?usp=sharing)
-* valid file: [valid_dm.csv](https://drive.google.com/file/d/1-89Y_Jc-uItJskT_cGTiEVqVhw85QXpa/view?usp=sharing)
-
-
 ### Documentation
 * WIP
 
 
 ### Next up
-* Clean the data for noise and speaker separation. 
+* Clean the data - noise and background audio separation. 
 * Create a pipeline for ASR and train the system together wtih audio and text.
 * Upload the data to Huggingface. 
 * Extend the data to 1000 individuals. If you are open to play around with raw data, do get in touch. 
@@ -55,3 +56,7 @@ We focused on spontaneous interviews for the audio samples and strictly avoided 
 * The training script were taken from [Mehrdad Farahani's](https://github.com/m3hrdadfi) [notebooks](https://github.com/m3hrdadfi/soxan) for speech classification
 * Most of my learning for working with audio and huggingface came from [Patrick's](https://twitter.com/PatrickPlaten) excellent [tutorials](https://huggingface.co/blog/fine-tune-xlsr-wav2vec2) on the topic. 
 
+
+### Contact
+* [Shreyas Gite](https://twitter.com/ShreyasGite)
+* hey@tuul.ai
