@@ -58,5 +58,4 @@ We focused on spontaneous interviews for the audio samples and strictly avoided 
 
 
 ### Contact
-* [Shreyas Gite](https://twitter.com/ShreyasGite)
-* hey@tuul.ai
+If you are curious about the DementiaNet or have any questoins/suggestions, let us know - hey@tuul.ai
